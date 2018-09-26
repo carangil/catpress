@@ -1,0 +1,31 @@
+<p>This is an example of a catpress page.</p>
+
+<br/>
+<br/>
+<h2> WTF is Catpress?</h2>
+<p>No database, no javascript.  Just a little php and a directory tree of plain text and html files.  Fast!  Because it does almost nothing.  But, you get consistent formatting across pages, consistent headers, footers.  Style is in-lined with the page load so there's never missing css and the page can't get caught in a partially-loaded state.  Browser nav buttons still just work.</p>
+
+<br/>
+
+<p>There are two things to change in index.php:</p>
+<ul>
+<li>$pageroot needs to be the path of the page. In this case, it is /catpress-example.  However, for my main site (mwsherman.com), it is blank, as catpress does my main page</li>
+<li>$pagedomain needs to be set</li>
+<ul>
+<br/>
+<br/>
+<br/>
+<p>To create a page, just make a folder in the directory of index.php.  Within that folder, place the file title and body.  Title should just contain text, and the body should be html tags.  
+<br/>
+<br/>
+<p>Instead of 'body' the files 'body0' 'body1', etc can be created, and multi-page articles will be created.</p>
+<br/>
+<br/>
+<a href="article">Sample article</a>
+<br/>
+<a href="multipage">Sample Multi-page article</a>
+<br/>
+
+
+
+<br/>

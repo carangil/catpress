@@ -1,0 +1,60 @@
+.header {
+
+ 	box-shadow: 10px 10px;
+}
+
+
+img {
+	max-width:80%;
+}
+
+textarea {
+	max-width:80%;
+}
+
+iframe {
+	max-width:80%;
+}
+
+pre {
+	background:#ECCCCC;
+	margin-right:5%;
+}
+
+.footer {
+	color:black;
+	background:pink;
+/*	height:40px;*/
+	clear:both;
+ 	box-shadow: 10px 10px;
+}
+
+.bumper {
+	height:400px;
+	clear:both;
+}
+
+body {
+	color:white;
+	background-color:black;
+}
+
+.page {
+	color:black;
+	margin-left:5%;
+
+	margin-right:5%;
+
+ 	box-shadow: 10px 10px;
+	background-color:white;
+}
+.innerpage {
+	margin-left:5%;
+	background-color:white;
+}
+
+.darklink {
+	color:#00FFFF;
+
+}
+
