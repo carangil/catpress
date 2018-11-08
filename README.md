@@ -22,5 +22,9 @@ a bug, or worry about running and securing a mysql instance.
 http://mwsherman.com is my personal page, and an example of a catpress site.  I don't know if its a _good_ example, its just
 the only one that exists so far.  
 
+There is a minimal example hosted at http://mwsherman.com/catpress-example/ .  The source code to that example is actually what
+is in the repo here.  To make it work on another website, there are two variables in index.php that need to change: $pageroot
+and $pagedomain.
+
 Please use this!  Please tell me what's wrong with it!  Tell me its great!  Tell me its trash!  Fix it and send a pull request!
 
